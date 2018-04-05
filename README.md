@@ -11,15 +11,18 @@ Vue.js, Eclipse-Neon, SpringBoot, Window10, gradle
 npm install --global vue-cli
 ```
 
-## Setup Gradle in Eclipse
-```
+## Setup Gradpe & SpringBoot
 
 ```
-## Setup SpringBoot
-
+Install Gradle : Eclipse - Help ->  Eclipse MarketPlace - search 'gradle' - install 'Buildship Gradle Integration 2.0'
+Install SpringBoot : write this sentence in build.gradle
 ```
-Eclipse - 
 ```
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web:2.0.0.RELEASE")
+}
+```
+ 
 
 
 # Project directory
