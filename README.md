@@ -19,7 +19,7 @@ vue init webpack ./
 ```
 
 ## Setup Gradpe & SpringBoot
-<H3> * please check my build.gradle.</H3>
+please check my build.gradle.
 ```
 Install Gradle : Eclipse - Help ->  Eclipse MarketPlace - search 'gradle' - install 'Buildship Gradle Integration 2.0'
 Install SpringBoot : write this sentence in build.gradle
