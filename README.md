@@ -1,34 +1,33 @@
+
+
+
 # SpringVue
 It is my Vue.js example project based on Spring boot
 Hello. This is my example project for study and project.
 
 # Requirement
-Vue.js, Eclipse-Neon, SpringBoot, Window10, gradle
+Vue.js, 3.9.3 Version - STS(https://spring.io/tools/sts), SpringBoot, Window10, gradle
 
 ## Setup Vue.js
 
 ``` 
-mkdir vue
-cd vue
+mkdir Vue
+cd Vue
 
 npm install --global vue-cli
 vue init webpack ./
 ```
 
 ## Setup Gradpe & SpringBoot
-
+<H3> * please check my build.gradle.</H3>
 ```
 Install Gradle : Eclipse - Help ->  Eclipse MarketPlace - search 'gradle' - install 'Buildship Gradle Integration 2.0'
 Install SpringBoot : write this sentence in build.gradle
 ```
 ```
 dependencies {
-    compile("org.springframework.boot:spring-boot-starter-web:2.0.0.RELEASE")
+    compile('org.springframework.boot:spring-boot-starter-thymeleaf')
+	compile('org.springframework.boot:spring-boot-starter-web')
 }
 ```
- 
 
-
-# Project directory
-```
--
