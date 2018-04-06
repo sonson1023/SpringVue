@@ -8,7 +8,11 @@ Vue.js, Eclipse-Neon, SpringBoot, Window10, gradle
 ## Setup Vue.js
 
 ``` 
+mkdir vue
+cd vue
+
 npm install --global vue-cli
+vue init webpack ./
 ```
 
 ## Setup Gradpe & SpringBoot
