@@ -16,13 +16,13 @@ public class MyVueSpringBootApplication {
 		SpringApplication.run(MyVueSpringBootApplication.class, args);
 	}
 	
-	@RequestMapping("/hello")
-	public String getHello() {
-		return "hello";
-	}
-	
-	@RequestMapping("/index")
-	public String getIndex() {
-		return "index";
-	}
+//	@RequestMapping("/hello")
+//	public String getHello() {
+//		return "hello";
+//	}
+//	
+//	@RequestMapping("/index")
+//	public String getIndex() {
+//		return "index";
+//	}
 }
